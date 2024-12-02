@@ -55,9 +55,6 @@ const Cart = () => {
                     <div className='text-primary font-medium'>${item.price}</div>
                   </div>
                 </div>
-                <div className='cursor-pointer'>
-                  <MdCancel size={25} color='#000' />
-                </div>
               </div>
             ))}
           </div>
