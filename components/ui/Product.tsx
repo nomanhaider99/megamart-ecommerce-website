@@ -9,7 +9,7 @@ interface ProductProps {
   title: string;
   price: number;
   discount: number;
-  id: number;
+  id: string;
 }
 
 const Product: React.FC<ProductProps> = ({
@@ -25,7 +25,7 @@ const Product: React.FC<ProductProps> = ({
 
   const handleAddToCart = async () => {
     try {
-      await addToCart(id);
+      await addToCart(id as any);
     } catch (error) {
       console.error("Error adding to cart:", error);
     }
