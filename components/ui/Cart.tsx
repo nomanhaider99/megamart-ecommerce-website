@@ -49,7 +49,7 @@ const Cart = () => {
                 key={(item.id) + index}
               >
                 <div className='flex items-center justify-between gap-4'>
-                  {/* <Image src={item.image || ''} alt='' height={50} width={50} /> */}
+                  <Image src={item.image || ''} alt='' height={50} width={50} />
                   <div>
                     <div>{item.title}</div>
                     <div className='text-primary font-medium'>${item.price}</div>
