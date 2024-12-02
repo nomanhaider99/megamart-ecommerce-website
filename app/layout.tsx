@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${font.className} relative`}
       >
         <Header />
-        <div className="mt-16">{children}</div>
+        <div className="mt-1">{children}</div>
         <Footer />
       </body>
     </html>

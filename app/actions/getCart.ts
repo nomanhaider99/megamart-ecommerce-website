@@ -9,6 +9,6 @@ export async function getCart() {
         throw new Error("Something went wrong!");
     }
     const data = await response.json();
-    console.log("Get API", data); // This will log the updated cart data
+    console.log("Get API", data); 
     return data.cart;
 }

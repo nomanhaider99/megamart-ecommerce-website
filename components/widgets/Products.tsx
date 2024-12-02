@@ -1,6 +1,7 @@
 import { mobilesData } from '@/data/products'
 import React from 'react'
 import Product from '../ui/Product'
+import { useCartStore } from '../context/cartStore';
 
 const Products = () => {
   return (

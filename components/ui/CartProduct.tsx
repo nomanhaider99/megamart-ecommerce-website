@@ -1,10 +1,10 @@
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import React from 'react'
 
 interface CartProductProps {
     title: string,
     price: number,
-    image: StaticImageData,
+    image: string,
     discount: number
 }
 
