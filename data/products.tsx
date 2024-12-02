@@ -7,35 +7,35 @@ import A33 from '@/public/images/A33.png';
 
 export const mobilesData = [
     {
-        id: uuidv4(),
+        id: '1239nja213',
         image: A33,
         title: 'Samsung Galaxy A33 5G',
         price: 1199,
         discount: 10,
     },
     {
-        id: uuidv4(),
+        id: '1bjia787bk',
         image: S23,
         title: 'Samsung Galaxy S23 Ultra',
         price: 1399,
         discount: 15,
     },
     {
-        id: uuidv4(),
+        id: 'knkjab621',
         image: S20Plus,
         title: 'Samsung Galaxy S20 + 5G',
         price: 899,
         discount: 12,
     },
     {
-        id: uuidv4(),
+        id: '126bjha6ub',
         image: M13,
         title: 'Samsung Galaxy M13 4G',
         price: 799,
         discount: 8,
     },
     {
-        id: uuidv4(),
+        id: 'jba8v7ab6',
         image: M33,
         title: 'Xiaomi Mi 33 Gaming Edition',
         price: 999,

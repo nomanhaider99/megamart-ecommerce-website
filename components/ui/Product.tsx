@@ -25,7 +25,7 @@ const Product: React.FC<ProductProps> = ({
 
   const handleAddToCart = async () => {
     try {
-      await addToCart(id as any);
+      await addToCart(id);
     } catch (error) {
       console.error("Error adding to cart:", error);
     }

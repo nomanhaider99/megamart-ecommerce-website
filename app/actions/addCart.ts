@@ -1,4 +1,4 @@
-export async function addCart(id: number) {
+export async function addCart(id: string) {
     const response = await fetch('/api/cart', {
       method: "POST",
       headers: {
@@ -13,6 +13,6 @@ export async function addCart(id: number) {
   
     const data = await response.json();
     console.log("Added Product:", data.product);
-    return data.product; // Use `data.product` instead of `data.cart`
+    return data.product; 
   }
   
